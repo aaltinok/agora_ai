@@ -1,0 +1,12 @@
+test:
+  name: Test
+  accent: "#888888"
+  tag: Dene
+  desc: Test filozofu.
+  method: Deneme
+  concepts: [a, b]
+  style: Kısa konuş.
+  max_sentences: 3
+  opening: ["{kw} nedir?"]
+  followup: ["“{claim}” mı dedin?"]
+  fallback: "Bilmiyorum?"

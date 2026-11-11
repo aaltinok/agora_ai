@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8">
+<style>
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#e8eefc}
+  #box{background:#13264a;border:1px solid #2c4a8a;border-radius:16px;padding:18px;text-align:center}
+  .t{font-weight:600;margin-bottom:10px}
+  #wave{display:flex;gap:4px;align-items:center;justify-content:center;height:64px;margin:6px 0 12px}
+  #wave i{display:block;width:5px;height:12px;border-radius:3px;background:#4f8cff;transition:height .15s}
+  #wave.on i{animation:b 0.9s ease-in-out infinite}
+  @keyframes b{0%,100%{height:10px}50%{height:56px}}
+  button{font:inherit;color:#fff;background:#24407a;border:1px solid #3d5fa8;border-radius:10px;padding:9px 18px;cursor:pointer;margin:0 4px}
+  button:hover:not(:disabled){background:#4f8cff} button:disabled{opacity:.45;cursor:not-allowed}
+  #mic.on{background:#b5384a;border-color:#e46a7a}
+  #status{margin-top:10px;font-size:.9rem;min-height:1.2em;color:#9fb0d6}
+  .note{margin-top:8px;font-size:.72rem;color:#7f93c0}
+</style></head><body>
+<div id="box">
+  <div class="t">Sesli Diyalog</div>
+  <div id="wave"></div>
+  <button id="mic">Konuş</button><button id="stop">Durdur</button>
+  <div id="status"></div>
+  <div class="note">Mikrofon yalnızca "Konuş"a bastığında açılır. Tarayıcının ses tanıma servisi sesi sağlayıcıya gönderebilir; okulda kullanmadan önce izin alın.</div>
+</div>
+<script>
+  const $ = (id) => document.getElementById(id);
+  const send = (type, data) => window.parent.postMessage(Object.assign({ isStreamlitMessage: true, type }, data), '*');
+  for (let i = 0; i < 28; i++) { const b = document.createElement('i'); b.style.animationDelay = (i * 0.05) + 's'; $('wave').appendChild(b); }
+  const synth = window.speechSynthesis || null;
+  const Rec = window.SpeechRecognition || window.webkitSpeechRecognition || null;
+  let rec = null, lastNonce = null, enabled = true;
+  function voice() { const v = synth ? synth.getVoices() : []; return v.find((x) => x.lang === 'tr-TR') || v.find((x) => x.lang.toLowerCase().startsWith('tr')) || null; }
+  function speak(text) {
+    if (!synth || !enabled) return; synth.cancel();
+    const v = voice(); if (!v) { $('status').textContent = 'Bu cihazda Türkçe ses bulunamadı; yanıt yalnızca yazılı.'; return; }
+    const u = new SpeechSynthesisUtterance(text); u.lang = 'tr-TR'; u.voice = v; u.rate = 0.95;
+    u.onstart = () => $('wave').classList.add('on'); u.onend = u.onerror = () => $('wave').classList.remove('on'); synth.speak(u);
+  }
+  if (!Rec) { $('mic').disabled = true; $('status').textContent = 'Bu tarayıcıda ses tanıma yok (Chrome veya Edge önerilir).'; }
+  $('mic').onclick = () => {
+    if (synth) synth.cancel(); rec = new Rec(); rec.lang = 'tr-TR'; rec.interimResults = false; rec.maxAlternatives = 1;
+    $('mic').classList.add('on'); $('mic').textContent = 'Dinliyorum...'; $('wave').classList.add('on'); $('status').textContent = '';
+    rec.onresult = (e) => { const text = e.results[0][0].transcript; $('status').textContent = text; send('streamlit:setComponentValue', { value: { text, ts: Date.now() }, dataType: 'json' }); };
+    rec.onerror = (e) => { $('status').textContent = e.error === 'not-allowed' ? 'Mikrofon izni verilmedi.' : 'Ses tanınamadı (' + e.error + ').'; };
+    rec.onend = () => { $('mic').classList.remove('on'); $('mic').textContent = 'Konuş'; $('wave').classList.remove('on'); };
+    try { rec.start(); } catch (err) { $('status').textContent = 'Başlatılamadı.'; }
+  };
+  $('stop').onclick = () => { if (synth) synth.cancel(); if (rec) { try { rec.stop(); } catch (e) { /* durmuş */ } } $('wave').classList.remove('on'); };
+  window.addEventListener('message', (e) => {
+    if (e.data.type !== 'streamlit:render') return;
+    const a = e.data.args || {}; enabled = a.enabled !== false;
+    if (a.speak && a.nonce !== lastNonce) { lastNonce = a.nonce; speak(a.speak); }
+  });
+  send('streamlit:componentReady', { apiVersion: 1 }); send('streamlit:setFrameHeight', { height: 250 });
+</script></body></html>
