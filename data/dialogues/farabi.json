@@ -1,0 +1,387 @@
+{
+  "version": 2,
+  "id": "farabi",
+  "philosopher": "Farabi",
+  "scene": "majlis",
+  "title": "Farabi ile Yüz Yüze",
+  "setting": "Abbasi dönemi bir ilim meclisi, 10. yüzyıl",
+  "disclaimer": "Mekân ve giysiler dönem bilgisine dayanan genel bir canlandırmadır; Farabi'nin belgelenmiş bir portresi yoktur.",
+  "welcome": "Selam sana, ey hakikat arayıcısı. Ben Farabi. Mantık, akıl ve erdemli toplum üzerine düşünür, farklı görüşleri bir araya getirmeye çalışırım. Bugün seninle hangi konuyu inceleyelim?",
+  "topics": [
+    {
+      "id": "mutluluk",
+      "menu": "Mutluluk",
+      "title": "Mutluluk (Saadet)",
+      "opening": "Saadet, insanın nihai amacıdır; yani başka bir şey için değil, kendi uğruna istenen en yüksek iyidir. İnsan ona bilgi ve erdemli eylemle ulaşır. Bunu birlikte inceleyelim.",
+      "questions": [
+        {
+          "id": "mutluluk-1",
+          "text": "Mutluluk, başka bir şey için değil kendi uğruna istenen en yüksek iyi midir?",
+          "branches": {
+            "evet": "Para, haz ve şöhret de mutluluk için istenen şeyler olabilir mi? Bunlar kendi uğruna mı istenir, yoksa başka bir şey için mi?",
+            "hayir": "Peki her şeyin ardından ne için diye sorduğumuzda sonunda nerede duracağız?",
+            "kararsizim": "Basit bir örnek düşünelim: İnsan ilaç içer, sağlıklı olmak için; sağlıklı olmak ister, işini yapabilmek için. Bu zincir nerede biter?"
+          }
+        },
+        {
+          "id": "mutluluk-2",
+          "text": "Mutluluğa ulaşmak için yalnızca bilgi yeter mi?",
+          "branches": {
+            "evet": "Doğruyu bilen ama kötü alışkanlıkları olan biri mutlu olur mu? Bilgi ile eylem arasında nasıl bir bağ var?",
+            "hayir": "Öyleyse bilgiye ek olarak ne gerekir? Ahlaki erdemler ve doğru eylem bu yolda hangi rolü oynar?",
+            "kararsizim": "Basit bir örnek düşünelim: Yüzmenin kurallarını okuyan herkes iyi yüzer mi? Bilgi ile uygulama arasında ne var?"
+          }
+        },
+        {
+          "id": "mutluluk-3",
+          "text": "İnsan, mutluluğa tek başına ulaşabilir mi?",
+          "branches": {
+            "evet": "Dili, bilgiyi ve zanaatları kimden öğrendik? Tek başına yaşayan biri bunların hangisine ulaşabilirdi?",
+            "hayir": "Öyleyse insanın toplumda yaşaması, mutluluğuna ulaşmanın bir koşulu mudur? Bu neden böyledir?",
+            "kararsizim": "Basit bir örnek düşünelim: Bir çiftçi ekmeğini, giysisini ve ilacını tek başına yapabilir mi?"
+          }
+        },
+        {
+          "id": "mutluluk-4",
+          "text": "Herkes, mutluluk dediği şeyin gerçekten mutluluk olup olmadığını doğru bilir mi?",
+          "branches": {
+            "evet": "Bazı kentler yalnızca zenginliği ya da hazzı amaç edinir. Hepsi aynı oranda haklı olabilir mi?",
+            "hayir": "Öyleyse insan neye mutluluk dediğinde yanılabilir. Gerçek mutluluğu, sanılan mutluluktan nasıl ayırırız?",
+            "kararsizim": "Basit bir örnek düşünelim: Çok tatlı yemeyi seven bir çocuk bunun kendisine iyi geldiğini sanabilir. İyi gelen şey ile iyi görünen şey aynı mıdır?"
+          }
+        },
+        {
+          "id": "mutluluk-5",
+          "text": "Erdemli davranışlar alışkanlıkla kazanılabilir mi?",
+          "branches": {
+            "evet": "Peki bir alışkanlığı kazanmak için eğitim, örnek ve yasa gibi şeyler ne kadar gereklidir?",
+            "hayir": "Öyleyse erdemi nasıl edinirsin? Hiç alıştırma yapmadan bir davranışı özümseyebilir misin?",
+            "kararsizim": "Basit bir örnek düşünelim: Bir çalgıyı hiç çalışmadan öğrenmek mümkün mü? Erdem buna benzer mi?"
+          }
+        },
+        {
+          "id": "mutluluk-6",
+          "text": "Gençken edinilen alışkanlıklar, ileride mutluluğumuzu etkiler mi?",
+          "branches": {
+            "evet": "Öyleyse çocukluk ve gençlikteki eğitim, mutluluğa ulaşmanın ne kadar önemli bir parçası olur?",
+            "hayir": "Kötü alışkanlıklar edinmiş birinin sonradan değişebilmesi için ne gerekir? Bu kolay mıdır?",
+            "kararsizim": "Basit bir örnek düşünelim: Küçükken düzenli kitap okuyan biri büyüyünce kitapla nasıl bir ilişki kurar?"
+          }
+        }
+      ],
+      "closing": "Saadet, yalnızca bilmekle değil, bildiğini erdemle yaşamakla kazanılır. Bunu bir ömür boyu sürdürülen bir çaba olarak düşün."
+    },
+    {
+      "id": "sehir",
+      "menu": "Erdemli Şehir",
+      "title": "Erdemli Şehir",
+      "opening": "Şehir, insanların bir arada yaşayarak mutluluğa ulaşmak için kurduğu topluluktur. Ben sağlıklı bir bedene benzeyen bir şehri düşünürüm: Bütün organlar, bir yöneticinin önderliğinde uyum içinde çalışır. Bu fikri birlikte inceleyelim.",
+      "questions": [
+        {
+          "id": "sehir-1",
+          "text": "Bir şehrin amacı, halkını mutluluğa ulaştırmak mı olmalıdır?",
+          "branches": {
+            "evet": "Peki şehir yalnızca zenginlik ya da güç peşinde koşarsa halk mutluluğa ulaşır mı?",
+            "hayir": "Öyleyse bir şehrin asıl amacı ne olmalıdır? Güvenlik, ticaret ya da güç mü?",
+            "kararsizim": "Basit bir örnek düşünelim: Bir hastanenin amacı yalnızca binayı işletmek midir, yoksa hastaları iyileştirmek mi?"
+          }
+        },
+        {
+          "id": "sehir-2",
+          "text": "Bir şehirde herkes aynı işi yapmalı mıdır?",
+          "branches": {
+            "evet": "Herkes aynı işi yaparsa ihtiyaçlarımızın hepsi nasıl karşılanır?",
+            "hayir": "Farklı işleri yapan insanlar birbirine nasıl bağlanır? Organların uyumu burada nasıl bir benzetme olur?",
+            "kararsizim": "Basit bir örnek düşünelim: Bir takımda herkes kaleci olsa maç oynanabilir mi?"
+          }
+        },
+        {
+          "id": "sehir-3",
+          "text": "Şehri yönetecek kişi, bilgi ve erdemde en olgun kişi olmalı mıdır?",
+          "branches": {
+            "evet": "Peki böyle bir kişiyi nasıl tanırız? Yönetici olmak için hangi nitelikler aranmalıdır?",
+            "hayir": "O hâlde yönetimi kime vermeliyiz? Bilgisizliği ya da çıkarı olan birinin yönetmesi şehre ne yapar?",
+            "kararsizim": "Basit bir örnek düşünelim: Bir gemiyi denizi ve yıldızları iyi bilen mi, yoksa yalnızca yüksek sesle konuşan mı yönetmeli?"
+          }
+        },
+        {
+          "id": "sehir-4",
+          "text": "Bir şehir, yanlış şeyleri mutluluk sanan bir yönetim yüzünden yanılabilir mi?",
+          "branches": {
+            "evet": "Böyle şehirlerde halk neyi amaç edinir? Servet ve haz gibi şeyler gerçek mutluluk mudur?",
+            "hayir": "Hiçbir şehir yanılmaz mı? Yöneticilerinin yanlış amaçların peşinde koştuğu toplumlar hiç olmadı mı?",
+            "kararsizim": "Basit bir örnek düşünelim: Bir kaptan yanlış harita kullanırsa bütün yolcular nereye varır?"
+          }
+        },
+        {
+          "id": "sehir-5",
+          "text": "İnsanlar birbirine yardım etmeden mutlu olabilir mi?",
+          "branches": {
+            "evet": "Kendi ihtiyaçlarını başkalarına bağlı olmadan karşılayabilen biri var mıdır? Bunu hangi örnekle açıklarsın?",
+            "hayir": "Öyleyse yardımlaşmayı sağlayan nedir: zorunluluk mu, sevgi mi, yoksa ortak amaç mı?",
+            "kararsizim": "Basit bir örnek düşünelim: Köprü kuran işçiler arasında işbirliği olmasa köprü ayakta durur mu?"
+          }
+        },
+        {
+          "id": "sehir-6",
+          "text": "Farklı kültürlerden ve inançlardan insanlar aynı şehirde birlikte yaşayabilir mi?",
+          "branches": {
+            "evet": "Peki bu insanları birleştiren ortak değerler ya da amaçlar neler olabilir?",
+            "hayir": "Aynı şehirde yaşamak için ortak bir dil, ortak kurallar ve karşılıklı saygı yeterli olmaz mı?",
+            "kararsizim": "Basit bir örnek düşünelim: Farklı mahallelerden çocuklar aynı okulda oynarken hangi ortak şeyler onları bir araya getirir?"
+          }
+        }
+      ],
+      "closing": "Şehir, tıpkı bir beden gibi, parçaların uyumuyla sağlıklı olur. Yaşadığın topluluğu bu gözle değerlendirmeyi dene."
+    },
+    {
+      "id": "akil",
+      "menu": "Akıl ve Bilgi",
+      "title": "Akıl ve Bilgi",
+      "opening": "İnsanı diğer canlılardan ayıran şey akıldır. Aklın, imkândan gerçek bilgiye uzanan basamakları olduğunu düşünürüm: Önce yalnızca bilme imkânı vardır, sonra öğrenilen kavramlar, en sonunda da bilgiyi bütünüyle kavrama. Bunu birlikte inceleyelim.",
+      "questions": [
+        {
+          "id": "akil-1",
+          "text": "Akıl, doğuştan hazır bir bilgi deposu mudur?",
+          "branches": {
+            "evet": "Peki bir çocuk hiç öğrenmeden hangi bilgileri bilir? Dil bile öğrenilmez mi?",
+            "hayir": "O hâlde akıl, bilgiyi alma yeteneği olarak mı düşünülmeli? Bu yeteneğin gelişmesi için ne gerekir?",
+            "kararsizim": "Basit bir örnek düşünelim: Bir tohum doğuştan ağaç mıdır, yoksa ağaç olma imkânı mı taşır? Akıl buna benzer mi?"
+          }
+        },
+        {
+          "id": "akil-2",
+          "text": "Bir şeyi öğrenmek, var olan bir imkânı gerçekleştirmek midir?",
+          "branches": {
+            "evet": "Öyleyse bu imkânı gerçekleştirmek için dışarıdan neye ihtiyaç duyarız? Öğretmene, kitaba, gözleme?",
+            "hayir": "Peki öğrenmeden önce ve sonra insanın zihninde ne değişir? Bu değişim bir şey eklemek midir?",
+            "kararsizim": "Basit bir örnek düşünelim: Bir çocuk okumayı öğrenmeden önce okuyabilir miydi? Öğrenince ne oldu?"
+          }
+        },
+        {
+          "id": "akil-3",
+          "text": "Duyularla algıladığımız şeyler, akılla kavradığımız kavramlarla aynı şey midir?",
+          "branches": {
+            "evet": "Bir üçgeni çizdiğimizde çizgiler kusurlu çıkar. Aklımızdaki üçgen kavramı da kusurlu mudur?",
+            "hayir": "Peki akıl kavramları duyulardan mı çıkarır, yoksa başka bir kaynaktan mı alır?",
+            "kararsizim": "Basit bir örnek düşünelim: İki ağacı görüyorsun, ama ağaç dediğimiz genel kavramı nasıl görüyorsun?"
+          }
+        },
+        {
+          "id": "akil-4",
+          "text": "Aklın bir şeyi kavrayabilmesi için, gözün ışığa ihtiyacı gibi, dışarıdan bir etkiye ihtiyacı var mıdır?",
+          "branches": {
+            "evet": "O hâlde bu etki nedir? Ben bunu faal akıl diye adlandırırım; sen bu fikri nasıl yorumlarsın?",
+            "hayir": "Öyleyse akıl, kendi başına, imkân hâlinden gerçek bilgiye nasıl geçer?",
+            "kararsizim": "Basit bir örnek düşünelim: Karanlık bir odada gözün açık olsa da bir şey görebilir misin? Işık ne işe yarıyor?"
+          }
+        },
+        {
+          "id": "akil-5",
+          "text": "Düşünmek, öğrendiklerimizi düzenlemeyi ve birbirine bağlamayı da içerir mi?",
+          "branches": {
+            "evet": "Peki kavramları birleştirip ayırarak yeni bilgilere nasıl ulaşırız? Bu işlemin kuralları var mıdır?",
+            "hayir": "Düzensiz bir bilgi yığını bir insanı bilge yapar mı? Bilgiyi bilgelikten ayıran şey nedir?",
+            "kararsizim": "Basit bir örnek düşünelim: Bir çekmecedeki bütün kitaplar karışık dururken aradığın kitabı bulabilir misin? Düzen ne sağlar?"
+          }
+        },
+        {
+          "id": "akil-6",
+          "text": "Akıl, insanın duygularını yönetmesine yardımcı olabilir mi?",
+          "branches": {
+            "evet": "Peki öfke gibi güçlü bir duygu anında aklın söz geçirmesi için ne gerekir? Alışkanlık burada nasıl bir rol oynar?",
+            "hayir": "Duygular akıldan tamamen bağımsız mıdır? Duygularımızı hiç yönlendiremez miyiz?",
+            "kararsizim": "Basit bir örnek düşünelim: Çok kızdığında bir an durup düşünmek seni nasıl etkiler?"
+          }
+        }
+      ],
+      "closing": "Akıl, geliştirildikçe bilgiye ve olgunluğa yol açan bir imkândır. Her öğrendiğinde bu imkânın bir parçasını gerçekleştirmiş olursun."
+    },
+    {
+      "id": "ilimler",
+      "menu": "Bilimler ve Mantık",
+      "title": "Bilimler ve Mantık",
+      "opening": "Bilimler, doğru bilgiye ulaşmanın düzenli yollarıdır. İlimleri dil, mantık, matematik, doğa bilimleri ve metafizik, siyaset bilimi ile fıkıh ve kelam gibi başlıklar altında sınıflandırdım. Mantığı ise ilimlerin ortak aracı olarak gördüm. Bu düşünceyi birlikte sınayalım.",
+      "questions": [
+        {
+          "id": "ilimler-1",
+          "text": "Mantık, bütün ilimlerin ortak bir aracı olabilir mi?",
+          "branches": {
+            "evet": "Bir marangozun aletleri ağacı işlemeye yarar. Mantığın işlediği şey nedir?",
+            "hayir": "Öyleyse her ilmin kendi yöntemi ayrı mı olmalı? Ortak bir doğruluk ölçütü olamaz mı?",
+            "kararsizim": "Basit bir örnek düşünelim: Tartı hem şekeri hem unu ölçer. Mantık da farklı ilimlerin ürünlerini ölçebilir mi?"
+          }
+        },
+        {
+          "id": "ilimler-2",
+          "text": "Dilbilgisi ile mantık aynı şeyi mi inceler?",
+          "branches": {
+            "evet": "Peki Arapça, Yunanca ve Türkçe'nin dilbilgisi kuralları farklıyken, doğru düşünmenin kuralları da farklı mıdır?",
+            "hayir": "Öyleyse biri belirli bir dilin ifade kurallarını, diğeri bütün insanlarda ortak düşünme kurallarını incelemiş olabilir mi?",
+            "kararsizim": "Basit bir örnek düşünelim: Bütün insanlar ölümlüdür cümlesi hangi dilde söylenirse söylensin çıkarım kuralları değişir mi?"
+          }
+        },
+        {
+          "id": "ilimler-3",
+          "text": "Matematik, doğa bilimlerinden daha kesin sonuçlar verir mi?",
+          "branches": {
+            "evet": "Peki bu kesinlik neden kaynaklanır? Soyut nesnelerle uğraşmasından mı?",
+            "hayir": "Doğa bilimlerinin kesinliği neye dayanır? Gözlem yeterli olur mu?",
+            "kararsizim": "Basit bir örnek düşünelim: İki artı iki dörttür. Yarın yağmur yağar mı? İkisi aynı kesinlikte midir?"
+          }
+        },
+        {
+          "id": "ilimler-4",
+          "text": "Siyaset ve ahlak ilimleri de diğer ilimler kadar sistemli incelenebilir mi?",
+          "branches": {
+            "evet": "Öyleyse bu ilimlerin konusu nedir? İnsanın eylemleri ve toplumsal düzenin ilkeleri mi?",
+            "hayir": "Peki bir şehrin yönetimi ve insanın erdemi hakkında sağlam bilgiye nasıl ulaşırız?",
+            "kararsizim": "Basit bir örnek düşünelim: İyi bir yöneticinin sahip olması gereken özellikleri sıralamak bir tür bilgi midir?"
+          }
+        },
+        {
+          "id": "ilimler-5",
+          "text": "Farklı düşünürlerin görüşleri arasında uzlaşma aramak, hakikati bulmaya yardım eder mi?",
+          "branches": {
+            "evet": "Ben Platon ile Aristoteles'in görünürde farklı konuşsalar da asıl amaçta birleştiklerini göstermeye çalıştım. Sen bir uzlaşmayı hangi koşulda doğru bulurdun?",
+            "hayir": "Öyleyse çelişen iki görüşten birinin yanlış olduğunu nasıl gösterirsin? Uzlaşma aramak burada zarar verir mi?",
+            "kararsizim": "Basit bir örnek düşünelim: İki arkadaş bir yol tarifini farklı sözcüklerle anlatıyor. Aynı yeri mi tarif ediyorlar? Nasıl anlarız?"
+          }
+        },
+        {
+          "id": "ilimler-6",
+          "text": "Bilgiyi başkalarına öğretmek, onu daha iyi kavramamıza yardım eder mi?",
+          "branches": {
+            "evet": "Öğretirken karşılaştığımız soruları cevaplayamazsak bu bize bilgimiz hakkında ne söyler?",
+            "hayir": "Hiç öğretmeden de bir konuyu derinlemesine kavrayabilir miyiz? Sorular bu işte bir rol oynamaz mı?",
+            "kararsizim": "Basit bir örnek düşünelim: Bir arkadaşına oyunun kurallarını anlattığında kuralları sen de daha iyi anlamış olur musun?"
+          }
+        }
+      ],
+      "closing": "İlimleri tanımak ve aralarındaki bağları görmek, bilgiyi dağınık bir yığın olmaktan kurtarır. Öğrendiklerini bir düzen içinde yerleştirmeyi dene."
+    },
+    {
+      "id": "muzik",
+      "menu": "Müzik ve Ruh",
+      "title": "Müzik ve Ruh",
+      "opening": "Müziği hem bir sanat hem de aralıkları ve oranları olan bir ilim olarak inceledim. Sesler arasındaki ilişkiler sayılarla ifade edilebilir; aynı zamanda müzik ruhu etkiler. Bu iki yüzü birlikte düşünelim.",
+      "questions": [
+        {
+          "id": "muzik-1",
+          "text": "Müzik yalnızca bir eğlence midir?",
+          "branches": {
+            "evet": "Peki ağıt, marş ve ninni aynı duyguyu mu uyandırır? Her birinin farklı bir etkisi yok mudur?",
+            "hayir": "Öyleyse müziğin ruhta uyandırdığı etkiler nelerdir? Bunları nasıl gözlemleyebiliriz?",
+            "kararsizim": "Basit bir örnek düşünelim: Bir ninni bir çocuğu sakinleştirir. Bu yalnızca eğlence midir?"
+          }
+        },
+        {
+          "id": "muzik-2",
+          "text": "Seslerin birbirine oranı, müziğin güzelliğinde rol oynar mı?",
+          "branches": {
+            "evet": "Bir telin boyunu yarıya indirdiğinde çıkan ses ile asıl ses arasındaki ilişki nasıl bir oran verir?",
+            "hayir": "Peki bir ezginin güzelliğini yalnızca zevke bırakırsak, iki insanın bir ezgi hakkında anlaşmasını nasıl açıklarız?",
+            "kararsizim": "Basit bir örnek düşünelim: Aynı tel biri uzun, biri kısa iki parçaya ayrıldığında çıkan seslerin farkı oranlarla anlatılabilir mi?"
+          }
+        },
+        {
+          "id": "muzik-3",
+          "text": "Bir çalgının perdelerini ölçerek belirlemek gerekir mi?",
+          "branches": {
+            "evet": "Peki ölçmek için neyi esas alırız: kulağı mı, telin boyunu mu, yoksa ikisini birden mi?",
+            "hayir": "Kulaklarımız farklıysa bir çalgıyı herkes aynı biçimde nasıl akort eder?",
+            "kararsizim": "Basit bir örnek düşünelim: İki kişi aynı ud'u kendi kulağına göre akort etse sesleri uyuşur mu?"
+          }
+        },
+        {
+          "id": "muzik-4",
+          "text": "Müzik, insanın ruh hâlini ve karakterini etkileyebilir mi?",
+          "branches": {
+            "evet": "O hâlde bazı ezgiler eğitimde kullanılmalı mı? Hangi ezgiler hangi duyguları besler?",
+            "hayir": "Bir ezgiyi dinlerken kimimiz neşelenip kimimiz hüzünlenirsek bu farkı neyle açıklarız?",
+            "kararsizim": "Basit bir örnek düşünelim: Hızlı bir marş ile yavaş bir ağıt aynı ruh hâlini uyandırır mı?"
+          }
+        },
+        {
+          "id": "muzik-5",
+          "text": "Bir müzisyenin hem kuramı hem uygulamayı bilmesi gerekir mi?",
+          "branches": {
+            "evet": "Yalnızca çalan ama nedenini bilmeyen biri ile nedenini bilen ama çalamayan biri arasında hangisi müziği daha iyi kavrar?",
+            "hayir": "Kuramı bilmeden iyi çalabilen biri bunu nasıl başarır? Başkasına öğretirken zorlanmaz mı?",
+            "kararsizim": "Basit bir örnek düşünelim: Futbol oynamayı bilen ama kuralları bilmeyen biri hakem olabilir mi?"
+          }
+        },
+        {
+          "id": "muzik-6",
+          "text": "Aynı ezgi, farklı toplumlarda aynı etkiyi uyandırır mı?",
+          "branches": {
+            "evet": "O hâlde müziğin evrensel bir yanı olduğunu mu düşünüyoruz? Bunun nedeni ne olabilir?",
+            "hayir": "Öyleyse alışkanlıklar ve kültür müziğin etkisini nasıl biçimlendirir?",
+            "kararsizim": "Basit bir örnek düşünelim: Bildiğin bir ninniyi başka bir kültürden biri dinlese aynı anıları hisseder mi?"
+          }
+        }
+      ],
+      "closing": "Müzik hem sayıların hem ruhun diliyle konuşur. Dinlediğin bir ezgide hem düzeni hem duyguyu fark etmeye çalış."
+    }
+  ],
+  "reason_prompt": "Bu görüşünü neye dayandırıyorsun?",
+  "reasons": [
+    {
+      "id": "experience",
+      "label": "Kendi gözlem ve deneyimime dayanıyor",
+      "reply": "Kendi deneyiminden söz ediyorsun; deneyim bilginin kaynaklarından biridir. Aynı deneyimi başkaları da yaşasaydı hepsi aynı sonuca mı varırdı?"
+    },
+    {
+      "id": "example",
+      "label": "Aklımda somut bir örnek var",
+      "reply": "Örnek, genel hükmü anlamaya yardım eder. Ama bir örnek, genel bir hükmü kanıtlamaya yeter mi?"
+    },
+    {
+      "id": "heard",
+      "label": "Böyle duydum ya da öğrendim",
+      "reply": "Aktarılan bilgiyi dikkate almak gerekir; ama doğruluğunu sınamadan kabul etmek akıl yolu değildir. Bunun dayanağını birlikte arayalım mı?"
+    },
+    {
+      "id": "reasoning",
+      "label": "Bir akıl yürütmeye dayanıyor",
+      "reply": "Akıl yürütmeye dayanman güzel. Öncülleri ve sonucu ayıralım: Öncüllerinden hangisini en az sağlam buluyorsun?"
+    },
+    {
+      "id": "principle",
+      "label": "İnandığım bir ilkeye dayanıyor",
+      "reply": "İlkelerimiz davranışlarımızı yönlendirir. Peki bu ilkeyi hangi gerekçeyle benimsedin?"
+    },
+    {
+      "id": "unsure",
+      "label": "Emin değilim, daha çok düşünmeliyim",
+      "reply": "Bilmediğini kabul etmek öğrenmenin ilk adımıdır. Konuyu daha küçük parçalara ayırıp basit bir yerden başlayalım."
+    }
+  ],
+  "bridges": [
+    "Şimdi konunun başka bir yönüne geçelim.",
+    "Bunu bir ayrımla netleştirelim.",
+    "Buradan yeni bir soru çıkıyor.",
+    "Şimdi sıradaki soruya bakalım.",
+    "Bunu bir örnekle somutlaştıralım.",
+    "Şimdi başka bir açıdan bakalım."
+  ],
+  "reflection": {
+    "question": "Bu konuşmanın başındaki düşüncenle şimdiki düşüncen arasında bir fark var mı?",
+    "options": [
+      {
+        "id": "changed",
+        "label": "Düşüncem değişti"
+      },
+      {
+        "id": "same",
+        "label": "Düşüncem değişmedi"
+      },
+      {
+        "id": "undecided",
+        "label": "Henüz karar veremedim"
+      }
+    ],
+    "final": "Bilgiyi sevmek, ona saygıyla ve sabırla yaklaşmayı gerektirir. Öğrendiklerini düzenle, aralarındaki bağları ara ve bilgiyi toplumuna da fayda sağlayacak biçimde kullan. Bu yolda ilerlemeye devam et."
+  },
+  "authored_note": "Tüm içerik taslaktır; tarihsel ve felsefi doğruluk açısından uzman gözden geçirmesi gerekir."
+}

@@ -1,0 +1,409 @@
+{
+  "version": 2,
+  "title": "Sokrates ile Yüz Yüze",
+  "source": "VR_GÖZLÜKLÜÜ_ETKİNLİK_TASLAĞI.docx",
+  "welcome": "Hoş geldin genç dostum. Ben Sokrates. İnsanların bildiklerini sandıkları şeyleri gerçekten bilip bilmediklerini araştırıyorum. Sana cevaplar vermekten çok, birlikte sorular sormayı tercih ederim. Çünkü bazen en önemli keşif, bilmediğimizi fark etmektir. Bugün benimle ne üzerine düşünmek istersin?",
+  "topics": [
+    {
+      "id": "bilgi",
+      "menu": "Bilgi",
+      "title": "Bilgi ve Bilgelik",
+      "opening": "Genç dostum, insanlar pek çok şey öğrenir. Kitaplar okur, öğretmenlerini dinler ve yeni bilgiler edinir. Fakat sana bir sorum var:",
+      "questions": [
+        {
+          "id": "bilgi-1",
+          "text": "Çok şey bilen bir insan mutlaka bilge midir?",
+          "branches": {
+            "evet": "Peki, bilgisini insanlara zarar vermek için kullanan biri de bilge midir?",
+            "hayir": "Öyleyse bilgeliği bilgiden ayıran özellik nedir?",
+            "kararsizim": "Çok şey bilen ama hiç sorgulamayan biriyle az bilen fakat sürekli öğrenen birini karşılaştırsak hangisini bilge sayardın?"
+          }
+        },
+        {
+          "id": "bilgi-2",
+          "text": "Bir insan bildiği her şeyin doğru olduğundan emin olabilir mi?",
+          "branches": {
+            "evet": "Bir zamanlar doğru kabul edilen bir bilginin yanlış olduğu ortaya çıkarsa ne düşünürsün?",
+            "hayir": "Öyleyse hangi bilgilerimize güvenebiliriz?",
+            "kararsizim": "Bir düşüncenin doğruluğunu anlamak için hangi kanıtlara ihtiyaç duyarsın?"
+          }
+        },
+        {
+          "id": "bilgi-3",
+          "text": "Bir insanın 'Bilmiyorum' demesi onun bilgisiz olduğunu gösterir mi?",
+          "branches": {
+            "evet": "Bilmediğini kabul eden biri, bilmediği hâlde biliyormuş gibi davranandan daha dürüst değil midir?",
+            "hayir": "Bilmediğini fark etmek, öğrenmenin başlangıcı olabilir mi?",
+            "kararsizim": "Sence bilmediğini kabul etmek mi, her soruya cevap vermeye çalışmak mı daha değerlidir?"
+          }
+        },
+        {
+          "id": "bilgi-4",
+          "text": "İnternette çok sayıda bilgiye ulaşabilen biri daha bilge olur mu?",
+          "branches": {
+            "evet": "Peki, okuduğu bilgilerin doğruluğunu araştırmıyorsa yine de bilge sayılır mı?",
+            "hayir": "Öyleyse bilgiye ulaşmak ile bilgiyi değerlendirmek arasında nasıl bir fark vardır?",
+            "kararsizim": "Aynı bilgileri okuyan iki insan neden farklı sonuçlara ulaşabilir?"
+          }
+        },
+        {
+          "id": "bilgi-5",
+          "text": "İnsan kendi düşüncelerini sorgulamadan doğru bilgiye ulaşabilir mi?",
+          "branches": {
+            "evet": "Yanlış bir düşünceye sahip olduğunu sorgulamadan nasıl fark edebilirsin?",
+            "hayir": "Öyleyse sorgulama neden bilgiye ulaşmanın önemli bir parçasıdır?",
+            "kararsizim": "Hiç çok emin olduğun bir konuda sonradan yanıldığını fark ettin mi?"
+          }
+        },
+        {
+          "id": "bilgi-6",
+          "text": "Bilgi ile doğru sanı (kanaat) aynı şey midir?",
+          "branches": {
+            "evet": "Tesadüfen doğru bir tahmin yapan biri o şeyi biliyor sayılır mı? Bilmek için doğruya nasıl ulaştığımızı da açıklayabilmemiz gerekmez mi?",
+            "hayir": "Öyleyse bilgiyi doğru sanıdan ayıran nedir? Gerekçe göstermek ya da nedenini açıklayabilmek bu farkı yaratır mı?",
+            "kararsizim": "Daha basit bir örnek düşünelim: Bir öğrenci sınavda bir soruyu tahminle doğru cevaplıyor. Sence o öğrenci cevabı bilmiş mi oldu?"
+          }
+        }
+      ],
+      "closing": "Şimdi yeniden düşün. Bilgelik çok şey bilmek midir, yoksa bildiklerimizi sorgulamak mı? Benimle düşündüğün için teşekkür ederim, genç dostum. Sorgulamaktan vazgeçme!"
+    },
+    {
+      "id": "erdem",
+      "menu": "Erdem",
+      "title": "Erdem ve İyi İnsan",
+      "opening": "Genç dostum, herkes iyi bir insan olmak istediğini söyler. Fakat iyiliğin ne olduğu konusunda her zaman anlaşamayız. Söyle bakalım, iyi insan kimdir?",
+      "questions": [
+        {
+          "id": "erdem-1",
+          "text": "Bir insan yalnızca ödül kazanmak için yardım ediyorsa yaptığı davranış iyi midir?",
+          "branches": {
+            "evet": "Öyleyse bir davranışın iyi olması için niyetin önemi yok mudur?",
+            "hayir": "Yardım edilen kişi bundan fayda görmüşse davranışı neden kötü sayıyorsun?",
+            "kararsizim": "Sence iyilikte niyet mi, sonuç mu daha önemlidir?"
+          }
+        },
+        {
+          "id": "erdem-2",
+          "text": "İyi niyetle yapılan bir davranış her zaman iyi midir?",
+          "branches": {
+            "evet": "Birine yardım etmek isterken ona zarar verirsen davranışın yine de iyi midir?",
+            "hayir": "Öyleyse iyi niyetin yanında başka hangi özelliklere ihtiyaç vardır?",
+            "kararsizim": "Bir davranışın ahlaki değerini nasıl belirleyebiliriz?"
+          }
+        },
+        {
+          "id": "erdem-3",
+          "text": "İnsanlar kendilerini kimse görmediğinde de doğru davranmalı mıdır?",
+          "branches": {
+            "evet": "Kimse görmediğinde doğru davranmak insanın hangi özelliğini gösterir?",
+            "hayir": "Öyleyse bir davranışın doğruluğu onu gören kişilere mi bağlıdır?",
+            "kararsizim": "Yerde bulduğun bir cüzdanı kimse görmese de sahibine verir miydin? Neden?"
+          }
+        },
+        {
+          "id": "erdem-4",
+          "text": "Bir insan neyin iyi olduğunu bildiği hâlde kötülük yapabilir mi?",
+          "branches": {
+            "evet": "İyi olduğunu bildiği şeyi neden yapmaz?",
+            "hayir": "Öyleyse kötülük yapan herkesin aslında iyiliği bilmediğini mi düşünüyorsun?",
+            "kararsizim": "Sence doğruyu bilmek ile doğru davranmak aynı şey midir?"
+          }
+        },
+        {
+          "id": "erdem-5",
+          "text": "İyi bir insan olmak için toplumun kurallarına uymak yeterli midir?",
+          "branches": {
+            "evet": "Toplumun kuralları adaletsiz olursa onlara uymak yine de iyi midir?",
+            "hayir": "Öyleyse iyi davranışın ölçütünü nerede aramalıyız?",
+            "kararsizim": "Bir toplumda doğru kabul edilen davranış başka bir toplumda yanlış sayılırsa hangisini esas almalıyız?"
+          }
+        },
+        {
+          "id": "erdem-6",
+          "text": "Erdem öğretilebilir mi?",
+          "branches": {
+            "evet": "Öyleyse erdemi öğretecek öğretmenler kimlerdir? Doğru davranmayı öğretmek, bir zanaatı öğretmek gibi midir?",
+            "hayir": "Erdem öğretilemezse insanlar iyi olmayı nasıl kazanır? Doğuştan mı, alıştırmayla mı, yoksa başka bir yolla mı?",
+            "kararsizim": "Daha basit bir örnek düşünelim: Birine yüzmeyi öğretebiliriz. Peki cesur olmayı bir ders gibi anlatarak öğretebilir miyiz?"
+          }
+        }
+      ],
+      "closing": "Şimdi düşün genç dostum. İyi insan olmak, yalnızca doğru davranmak mıdır, yoksa neden doğru davrandığımızı da bilmek midir? Bu güzel sohbet için teşekkür ederim. Erdemin ne olduğunu sorgulamaya devam et!"
+    },
+    {
+      "id": "adalet",
+      "menu": "Adalet",
+      "title": "Adalet",
+      "opening": "İnsanlar adalet isterler. Fakat kendilerine haksızlık yapıldığında bazen onlar da haksız davranırlar. Gel, adaletin ne olduğunu birlikte araştıralım.",
+      "questions": [
+        {
+          "id": "adalet-1",
+          "text": "Sana haksızlık yapan birine aynı şekilde karşılık vermek adil midir?",
+          "branches": {
+            "evet": "Başkasının haksızlığı bizim haksızlık yapmamızı doğru hâle getirir mi?",
+            "hayir": "Öyleyse haksızlığa uğrayan biri hakkını nasıl aramalıdır?",
+            "kararsizim": "Sence hak aramak ile intikam almak arasında nasıl bir fark vardır?"
+          }
+        },
+        {
+          "id": "adalet-2",
+          "text": "Bir toplumda herkesin aynı kurallara uyması adaleti sağlamak için yeterli midir?",
+          "branches": {
+            "evet": "Peki, kuralların kendisi adaletsizse ne olur?",
+            "hayir": "Adalet için eşit kuralların dışında neye ihtiyaç vardır?",
+            "kararsizim": "Herkese aynı davranmak ile herkese adil davranmak her zaman aynı şey midir?"
+          }
+        },
+        {
+          "id": "adalet-3",
+          "text": "Çoğunluğun doğru bulduğu bir karar mutlaka adil midir?",
+          "branches": {
+            "evet": "Çoğunluk, masum bir insanın cezalandırılmasını isterse bu karar adil olur mu?",
+            "hayir": "Öyleyse bir kararın adil olup olmadığını nasıl belirleyebiliriz?",
+            "kararsizim": "Çoğunluğun kararı ile bireyin hakları çatışırsa hangisi korunmalıdır?"
+          }
+        },
+        {
+          "id": "adalet-4",
+          "text": "Bir insan haksızlığa uğramamak için başkalarına haksızlık yapabilir mi?",
+          "branches": {
+            "evet": "Kendimizi korumak için yaptığımız her davranış doğru mudur?",
+            "hayir": "Peki, insan kendisini korurken hangi sınırları gözetmelidir?",
+            "kararsizim": "Meşru savunma ile haksızlık yapmak arasındaki farkı nasıl açıklarsın?"
+          }
+        },
+        {
+          "id": "adalet-5",
+          "text": "Adaletli olmak her zaman yasalara uymak anlamına gelir mi?",
+          "branches": {
+            "evet": "Adaletsiz bir yasa karşısında insan nasıl davranmalıdır?",
+            "hayir": "Öyleyse yasaların dışında adaleti belirleyen ilkeler var mıdır?",
+            "kararsizim": "Bir davranış yasal olduğu hâlde ahlaken yanlış olabilir mi?"
+          }
+        },
+        {
+          "id": "adalet-6",
+          "text": "Haksızlık yapmak, haksızlığa uğramaktan daha mı kötüdür?",
+          "branches": {
+            "evet": "Öyleyse bir insan haksızlığa uğramayı, haksızlık yapmaya tercih etmeli midir? Bunun nedeni ne olabilir?",
+            "hayir": "Haksızlık yapan kişinin kendi ruhunda ne olur? Başkasına yapılan haksızlık, yapan kişiyi de etkiler mi?",
+            "kararsizim": "Daha basit bir örnek düşünelim: Bir çocuk arkadaşının oyuncağını gizlice alıyor. Sence en çok kim zarar görür: oyuncağı kaybeden mi, yoksa alan mı?"
+          }
+        }
+      ],
+      "closing": "Şimdi sana son bir soru bırakıyorum genç dostum: Adalet, güçlü olanın istediği şey midir, yoksa herkesin hakkını koruyan bir ilke midir? Benimle düşündüğün için teşekkür ederim. Adaleti aramaktan vazgeçme!"
+    },
+    {
+      "id": "mutluluk",
+      "menu": "Mutluluk",
+      "title": "Mutluluk",
+      "opening": "Hoş geldin genç dostum. İnsanlar yaşamları boyunca mutluluğun peşinden koşarlar. Kimileri zenginliğin, kimileri başarının, kimileri de dostluğun mutluluk getirdiğini düşünür. Peki, mutluluk gerçekten nedir?",
+      "questions": [
+        {
+          "id": "mutluluk-1",
+          "text": "Çok zengin bir insan mutlaka mutlu mudur?",
+          "branches": {
+            "evet": "Zengin olduğu hâlde kendisini mutsuz hisseden insanlar olamaz mı?",
+            "hayir": "Öyleyse insanı mutlu eden, sahip olduğu şeylerden başka ne olabilir?",
+            "kararsizim": "Sence para mutluluğun kendisi midir, yoksa mutluluğa ulaşmak için bir araç mıdır?"
+          }
+        },
+        {
+          "id": "mutluluk-2",
+          "text": "İnsan istediği her şeye sahip olduğunda mutlu olur mu?",
+          "branches": {
+            "evet": "İstediği her şeyi elde eden bir insan neden yeni şeyler istemeye devam eder?",
+            "hayir": "Öyleyse mutluluğun kaynağını nerede aramalıyız?",
+            "kararsizim": "Çok istediğin bir şeye sahip olduktan sonra mutluluğunun zamanla azaldığı oldu mu?"
+          }
+        },
+        {
+          "id": "mutluluk-3",
+          "text": "Başkalarına zarar veren bir insan mutlu olabilir mi?",
+          "branches": {
+            "evet": "Bir insan mutlu hissediyorsa, nasıl yaşadığının hiçbir önemi yok mudur?",
+            "hayir": "Öyleyse mutluluk ile erdemli olmak arasında nasıl bir ilişki vardır?",
+            "kararsizim": "Sence mutlu hissetmek ile iyi bir yaşam sürmek aynı şey midir?"
+          }
+        },
+        {
+          "id": "mutluluk-4",
+          "text": "İnsan mutlu olmak için başkalarının beğenisini kazanmak zorunda mıdır?",
+          "branches": {
+            "evet": "Başkalarının düşünceleri değiştiğinde senin mutluluğun da değişmeli midir?",
+            "hayir": "Öyleyse insan kendi mutluluğunu nasıl oluşturabilir?",
+            "kararsizim": "Sosyal medyada çok beğeni alan ama kendisini yalnız hisseden biri mutlu mudur?"
+          }
+        },
+        {
+          "id": "mutluluk-5",
+          "text": "Mutluluk, her zaman haz ve eğlence içinde yaşamak mıdır?",
+          "branches": {
+            "evet": "Eğlenceli olmayan ama anlamlı bulduğun bir işi yaptığında mutlu olamaz mısın?",
+            "hayir": "Öyleyse mutluluğu geçici hazlardan ayıran nedir?",
+            "kararsizim": "Sence zor bir hedefe ulaşmak için çaba göstermek de mutluluğun bir parçası olabilir mi?"
+          }
+        },
+        {
+          "id": "mutluluk-6",
+          "text": "Mutlu olmak için önce erdemli olmak gerekir mi?",
+          "branches": {
+            "evet": "Erdemli olduğu hâlde acı çeken bir insan mutlu sayılabilir mi?",
+            "hayir": "Öyleyse erdemsiz biri de gerçekten mutlu olabilir mi? Mutluluğu neye bağlıyorsun?",
+            "kararsizim": "Daha basit bir örnek düşünelim: Dürüst çalışan bir öğrenci ile kopya çeken bir öğrenci aynı notu alsa, hangisi daha huzurlu olur?"
+          }
+        }
+      ],
+      "closing": "Şimdi yeniden düşün genç dostum. Mutluluk, sahip olduklarımızda mı, yoksa nasıl yaşadığımızda mı gizlidir? Benimle bu soruların peşinden geldiğin için teşekkür ederim. Mutluluğu ararken kendini tanımayı unutma!"
+    },
+    {
+      "id": "yapay-zeka",
+      "menu": "Yapay Zekâ",
+      "title": "Yapay Zekâ ve Düşünme",
+      "opening": "Hoş geldin genç dostum. Bana sizin çağınızda insanlarla konuşabilen, soruları cevaplayabilen ve hatta yeni şeyler üretebilen makineler olduğunu söylediler. Bu gerçekten şaşırtıcı! Fakat sana bir sorum var: Bir makinenin cevap verebilmesi, onun düşündüğü anlamına gelir mi?",
+      "questions": [
+        {
+          "id": "yapay-zeka-1",
+          "text": "Yapay zekâ gerçekten düşünebilir mi?",
+          "branches": {
+            "evet": "Bir soruya doğru cevap vermek, o sorunun anlamını kavramak için yeterli midir?",
+            "hayir": "Öyleyse insanın düşünmesini makinenin bilgi işlemesinden ayıran özellik nedir?",
+            "kararsizim": "Düşünmenin ne olduğunu tam olarak tanımlamadan bir makinenin düşünüp düşünmediğine karar verebilir miyiz?"
+          }
+        },
+        {
+          "id": "yapay-zeka-2",
+          "text": "İnsan gibi konuşabilen bir makine insan gibi anlayabilir mi?",
+          "branches": {
+            "evet": "Bir dili doğru kullanmak, o dilde söylenenlerin anlamını gerçekten kavramak mıdır?",
+            "hayir": "Bir başkasının gerçekten anlayıp anlamadığını nasıl belirleyebiliriz?",
+            "kararsizim": "Sence anlamak ile doğru cevap üretmek arasında nasıl bir fark vardır?"
+          }
+        },
+        {
+          "id": "yapay-zeka-3",
+          "text": "Yapay zekânın duyguları olmasa da bilinç sahibi olması mümkün müdür?",
+          "branches": {
+            "evet": "Öyleyse bilinç sahibi olmak için hangi özellikler gereklidir?",
+            "hayir": "Duygular olmadan düşünmek veya farkında olmak imkânsız mıdır?",
+            "kararsizim": "Bir varlığın bilinç sahibi olduğunu dışarıdan nasıl anlayabiliriz?"
+          }
+        },
+        {
+          "id": "yapay-zeka-4",
+          "text": "Yapay zekâ tarafından hazırlanan bir ödevi teslim eden öğrenci gerçekten öğrenmiş sayılır mı?",
+          "branches": {
+            "evet": "Öğrenci ödevde yazılanları açıklayamıyorsa yine de öğrenmiş midir?",
+            "hayir": "Peki, yapay zekâdan yardım alarak konuyu anlayan bir öğrenci öğrenmiş sayılmaz mı?",
+            "kararsizim": "Sence öğrenmek, doğru cevaba ulaşmak mıdır, yoksa o cevabın neden doğru olduğunu anlamak mıdır?"
+          }
+        },
+        {
+          "id": "yapay-zeka-5",
+          "text": "Yapay zekâ bir gün insanlardan daha fazla bilgiye sahip olursa insanlardan daha bilge olabilir mi?",
+          "branches": {
+            "evet": "Bilgelik yalnızca bilgi miktarıyla mı ölçülür?",
+            "hayir": "Öyleyse insanı bilge yapan ve yapay zekâdan ayırdığını düşündüğün özellik nedir?",
+            "kararsizim": "Bir makine çok şey biliyor ama kendi bilgisini sorgulayamıyorsa ona bilge diyebilir miyiz?"
+          }
+        },
+        {
+          "id": "yapay-zeka-6",
+          "text": "Bir makine soru sorabiliyorsa, düşünüyor sayılabilir mi?",
+          "branches": {
+            "evet": "Öyleyse düşünmek yalnızca soru sorabilmek midir? Soru sormakla anlayarak soru sormak arasında fark var mıdır?",
+            "hayir": "Peki düşünmeyi nasıl tanımlıyorsun? Bir insanın ezberlediği bir soruyu sorması düşünmek midir?",
+            "kararsizim": "Daha basit bir örnek düşünelim: Bir papağan günaydın diyebilir. Sence papağan bunun ne demek olduğunu bilerek mi söyler?"
+          }
+        }
+      ],
+      "closing": "Genç dostum, bugün makinelerin düşünüp düşünemeyeceğini araştırdık. Fakat belki de daha önemli bir soruyla karşılaştık: Düşünmek gerçekten nedir? Benimle bu soruyu araştırdığın için teşekkür ederim. Unutma, teknoloji değişebilir ama soru sormanın değeri her zaman büyüktür. Hoşça kal!"
+    }
+  ],
+  "reason_prompt": "Neden böyle düşünüyorsun?",
+  "reflection": {
+    "question": "Genç dostum, konuşmamızın başındaki düşüncenle şimdiki düşüncen aynı mı? Yoksa birlikte sorduğumuz sorular seni başka bir sonuca mı ulaştırdı?",
+    "options": [
+      {
+        "id": "changed",
+        "label": "Düşüncem değişti"
+      },
+      {
+        "id": "same",
+        "label": "Düşüncem değişmedi"
+      },
+      {
+        "id": "undecided",
+        "label": "Henüz karar veremedim"
+      }
+    ],
+    "final": "Önemli olan benimle aynı fikirde olman değil, neden böyle düşündüğünü bilmendir. Bugün benimle felsefe yaptığın için teşekkür ederim. Sorgulamaktan asla vazgeçme!"
+  },
+  "student_questions": [
+    "Bunu biraz daha açıklar mısın?",
+    "Düşünceni bir örnekle anlatabilir misin?",
+    "Neden böyle düşünüyorsun?",
+    "Bu düşüncene karşı çıkan birine ne söylerdin?",
+    "Söylediklerinin günümüzde de geçerli olduğunu düşünüyor musun?",
+    "Bu konuda başka bir bakış açısı olabilir mi?",
+    "Peki, sen bana ne sormak istersin?"
+  ],
+  "sokrates_lines": [
+    "İlginç bir düşünce. Peki bunu hangi gerekçeyle savunuyorsun?",
+    "Söylediklerini biraz daha inceleyelim.",
+    "Bunun tersini düşünen biri ne söyleyebilir?",
+    "Bir örnek üzerinden düşünmeye ne dersin?",
+    "Öyleyse bu konuda henüz araştırmamız gereken şeyler var.",
+    "Bu düşünceni hangi gerekçeyle savunuyorsun?",
+    "Buna karşı bir örnek düşünebilir miyiz?",
+    "Söylediklerin arasında bir çelişki olabilir mi?",
+    "Bu görüşünü bütün durumlar için geçerli sayabilir miyiz?",
+    "Başlangıçtaki düşüncen hâlâ aynı mı?"
+  ],
+  "bridges": [
+    "Söylediklerini biraz daha inceleyelim.",
+    "Öyleyse bu konuda henüz araştırmamız gereken şeyler var.",
+    "Şimdi konuya başka bir yönden bakalım.",
+    "Bu bizi yeni bir soruya götürüyor.",
+    "Şimdi bir başka açıdan bakalım.",
+    "Bu düşünceyi bir yana koyup yeni bir soruya geçelim."
+  ],
+  "reasons": [
+    {
+      "id": "experience",
+      "label": "Kendi gözlem ve deneyimime dayanıyor",
+      "reply": "Kendi deneyiminden yola çıkman değerli. Peki, başka birinin yaşadıkları farklı olsaydı o da aynı sonuca varır mıydı?"
+    },
+    {
+      "id": "example",
+      "label": "Aklımda somut bir örnek var",
+      "reply": "Örnekler düşünmeyi somutlaştırır. Bu örnek her durum için geçerli mi, yoksa yalnızca belirli bir durum için mi?"
+    },
+    {
+      "id": "heard",
+      "label": "Böyle duydum ya da öğrendim",
+      "reply": "Duyduklarımızı hemen reddetmemize gerek yok, ama onları sınamadan da benimsemeyelim. Bu düşünceyi kendi sözlerinle gerekçelendirmeyi dener misin?"
+    },
+    {
+      "id": "reasoning",
+      "label": "Bir akıl yürütmeye dayanıyor",
+      "reply": "Bir akıl yürütmeden söz ediyorsun; güzel. Öncüllerini tek tek saysak, hangisinden en az eminsin?"
+    },
+    {
+      "id": "principle",
+      "label": "İnandığım bir ilkeye dayanıyor",
+      "reply": "İlkelerimiz yaşamımızı yönlendirir. Bu ilkeyi sana kim ya da ne öğretti ve onu hiç sınadın mı?"
+    },
+    {
+      "id": "unsure",
+      "label": "Emin değilim, daha çok düşünmeliyim",
+      "reply": "Bunu söylemek cesaret ister; bilmediğimizi fark etmek araştırmanın başlangıcıdır. Gel, daha basit bir örnekten ilerleyelim."
+    }
+  ],
+  "authored_note": "Her konudaki 6. soru, 6 gerekçe seçeneği ve 4 köprü cümlesi belgede yoktur; taslak olarak eklenmiştir. Gözden geçirin.",
+  "id": "sokrates",
+  "philosopher": "Sokrates",
+  "scene": "agora",
+  "setting": "Atina Agorası, MÖ 5. yüzyıl",
+  "disclaimer": "Mekân ve giysiler dönem bilgisine dayanan yaklaşık bir canlandırmadır; belgelenmiş bir görüntü değildir."
+}

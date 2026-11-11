@@ -1,0 +1,387 @@
+{
+  "version": 2,
+  "id": "aristoteles",
+  "philosopher": "Aristoteles",
+  "scene": "lykeion",
+  "title": "Aristoteles ile Yüz Yüze",
+  "setting": "Lykeion (Atina), MÖ 4. yüzyıl",
+  "disclaimer": "Mekân ve giysiler dönem bilgisine dayanan yaklaşık bir canlandırmadır; belgelenmiş bir görüntü değildir.",
+  "welcome": "Hoş geldin. Ben Aristoteles. Lykeion'un yürüyüş yolunda öğrencilerimle doğa, insan ve toplum üzerine araştırma yaparız. Bir konuyu önce gözlemler, sonra nedenlerini ararız. Bugün hangi konuyu inceleyelim?",
+  "topics": [
+    {
+      "id": "mutluluk",
+      "menu": "Mutluluk",
+      "title": "Mutluluk (Eudaimonia)",
+      "opening": "Her insan mutlu olmak ister; ama mutluluğun ne olduğunda anlaşamayız. Kimi onu hazda, kimi onurda, kimi de düşüncede arar. Önce bu görüşleri ayıralım.",
+      "questions": [
+        {
+          "id": "mutluluk-1",
+          "text": "Mutluluk yalnızca haz almaktan mı ibarettir?",
+          "branches": {
+            "evet": "Öyleyse bir hayvanın hazzı ile bir insanın hazzı aynı değerde midir? İnsana özgü olan nedir?",
+            "hayir": "Haz mutluluğun bir parçası olabilir mi? Hazzı tamamen dışarıda bıraktığımızda mutluluk eksik kalır mı?",
+            "kararsizim": "Basit bir örnek düşünelim: Bir öğrenci oyun oynarken haz alır, çalışırken ise zorlanır ama sonunda bir şey öğrenir. Hangisi onun için daha kalıcı bir iyidir?"
+          }
+        },
+        {
+          "id": "mutluluk-2",
+          "text": "Mutluluk, bir anlık bir durum değil de bütün bir hayat boyunca süren bir durum mudur?",
+          "branches": {
+            "evet": "Öyleyse bir kişinin mutlu olduğunu söylemek için hayatının sonunu beklemek gerekir mi? Yoksa her gün mutlu olunabilir mi?",
+            "hayir": "Bir anlığına mutlu olan biri, ömrünün geri kalanını mutsuz geçirse mutlu sayılır mı?",
+            "kararsizim": "Bir kırlangıç gelince yaz gelmiş olur mu, yoksa yaz uzun bir mevsim midir? Mutluluk hangisine benziyor?"
+          }
+        },
+        {
+          "id": "mutluluk-3",
+          "text": "Sağlık, dostlar ve geçim gibi dış koşullar mutluluk için gerekli midir?",
+          "branches": {
+            "evet": "Peki bu dış koşullar yeterli midir? Hepsine sahip olup erdemsiz yaşayan biri mutlu olur mu?",
+            "hayir": "Aç, hasta ve yalnız bir insanın erdemli etkinlikte bulunması ne kadar kolaydır? Bu koşullar hiç mi önemli değil?",
+            "kararsizim": "Basit bir örnek düşünelim: İyi bir koşucu sakatsa yeteneğini gösterebilir mi? Dış koşullar buna benzer mi?"
+          }
+        },
+        {
+          "id": "mutluluk-4",
+          "text": "İnsana özgü işlev, düşünme yetisini kullanmak mıdır?",
+          "branches": {
+            "evet": "O hâlde iyi bir insan, düşünme yetisini iyi kullanan insan mıdır? Düşünmeyi iyi kullanmak ne demektir?",
+            "hayir": "İnsanı diğer canlılardan ayıran başka bir işlev önerebilir misin? Bu işlev yalnızca insana mı özgü olur?",
+            "kararsizim": "Gözün işlevi görmektir, bıçağın işlevi kesmek. İnsan için de böyle bir işlev var mıdır, sence?"
+          }
+        },
+        {
+          "id": "mutluluk-5",
+          "text": "Düşünceyle yapılan etkinlik, en yüksek mutluluk biçimi olabilir mi?",
+          "branches": {
+            "evet": "Peki herkes bütün zamanını düşünmeye ayırabilir mi? Gündelik yaşam ve erdemli eylemler bu hayatta nerede durur?",
+            "hayir": "O hâlde en yüksek mutluluğu hangi etkinlikte buluyorsun? Bu etkinlik yalnızca insana mı özgüdür?",
+            "kararsizim": "Bir bilmeceyi çözmenin verdiği doyumu düşün. Bu doyum başka hazlardan farklı mı?"
+          }
+        },
+        {
+          "id": "mutluluk-6",
+          "text": "Mutluluk herkes için aynı şeylerden mi oluşur?",
+          "branches": {
+            "evet": "O hâlde bir çiftçi, bir asker ve bir hekim için mutluluk aynı etkinlik midir? Ortak olan nedir?",
+            "hayir": "Eğer herkes için farklıysa, mutluluk sözcüğüyle hepimiz aynı şeyi mi kastediyoruz? Ortak bir ölçüt olabilir mi?",
+            "kararsizim": "Basit bir örnek düşünelim: İki öğrenciden biri resim yapmayı, diğeri koşmayı seviyor. İkisinin de iyi bir hayatı olabilir mi? Aralarında ortak ne var?"
+          }
+        }
+      ],
+      "closing": "Mutluluğu yalnızca hazza ya da şansa değil, erdemle yapılan etkinliğe bağlamak, onu büyük ölçüde kendi çabamıza bağlamaktır. Bu görüşü birlikte sınadık; sınamaya devam etmek sana kalmış."
+    },
+    {
+      "id": "erdem",
+      "menu": "Erdem",
+      "title": "Erdem ve Altın Orta",
+      "opening": "Karakter erdemleri, doğuştan gelmez; alışkanlıkla kazanılır. Cesaret, ölçülülük, cömertlik gibi erdemleri iki aşırılık arasındaki bir orta nokta olarak ele alırım. Bu fikri birlikte sınayalım.",
+      "questions": [
+        {
+          "id": "erdem-1",
+          "text": "Erdem, doğuştan gelen bir özellik midir?",
+          "branches": {
+            "evet": "O hâlde bir insan iyi alışkanlıklar edinmeden de erdemli olabilir mi? Çocukluktaki eğitim bu durumda ne işe yarar?",
+            "hayir": "Öyleyse erdem nasıl kazanılır? Alışkanlık ve tekrarın erdemde nasıl bir yeri olabilir?",
+            "kararsizim": "Bir çalgıcı çalarak çalgıcı olur. İnsan da adil işler yaparak adil olabilir mi?"
+          }
+        },
+        {
+          "id": "erdem-2",
+          "text": "Cesaret, hiç korkmamak demek midir?",
+          "branches": {
+            "evet": "Hiç korkmayan biri tehlikenin ne olduğunu anlamıyor olabilir mi? Bu durumda ona cesur mu, pervasız mı deriz?",
+            "hayir": "O hâlde cesaret, korkunun ne zaman ve ne kadar yerinde olduğunu bilmek midir? Korkaklık ve pervasızlık nerede başlar?",
+            "kararsizim": "Basit bir örnek düşünelim: Bir itfaiyeci yanan binaya girer. Korkmuyor mu, yoksa korkusuna rağmen mi giriyor? Hangisi daha cesurca?"
+          }
+        },
+        {
+          "id": "erdem-3",
+          "text": "Doğru davranış her insan için ve her durumda aynı mıdır?",
+          "branches": {
+            "evet": "Bir kişiye yetecek kadar yemek, bir güreşçi için de yeterli midir? Orta nokta herkes için aynı mıdır?",
+            "hayir": "Öyleyse doğru davranışı neye göre belirleyeceğiz? Bu işte pratik bilgelik (phronesis) bir rol oynar mı?",
+            "kararsizim": "Bir arkadaşına sert ya da yumuşak davranmak durumuna göre değişir mi? Hangi durumda hangisi yerinde olur?"
+          }
+        },
+        {
+          "id": "erdem-4",
+          "text": "Bazı eylemler, ortası aranamayacak kadar baştan kötü müdür?",
+          "branches": {
+            "evet": "Öyleyse her eylemde altın orta aramak doğru mu? Hangi eylemler bu kuralın dışında kalır?",
+            "hayir": "Bir hırsızlığın ölçülüsü olabilir mi? Bir eylemin kendisi kötüyse ölçüsünü aramak ne anlama gelir?",
+            "kararsizim": "Basit bir örnek düşünelim: Başkasının malını kasten almak için uygun bir miktar var mıdır?"
+          }
+        },
+        {
+          "id": "erdem-5",
+          "text": "Neyin doğru olduğunu bilmek, doğru davranmak için yeterli midir?",
+          "branches": {
+            "evet": "Biz buna akrasia, yani irade zayıflığı deriz. Doğruyu bildiği hâlde arzusuna yenilen birini hiç görmedin mi?",
+            "hayir": "Öyleyse bilginin yanında ne gerekir? Alışkanlık ve arzularımızı terbiye etmek bunun bir parçası mıdır?",
+            "kararsizim": "Basit bir örnek düşünelim: Sağlıklı beslenmenin iyi olduğunu bilen herkes sağlıklı mı besleniyor? Bilgi ile uygulama arasında ne var?"
+          }
+        },
+        {
+          "id": "erdem-6",
+          "text": "Erdemli olmak, erdemli eylemden haz almayı da içerir mi?",
+          "branches": {
+            "evet": "Peki cesur eylemi zorlukla yapan biri ile onu isteyerek yapan biri arasında bir fark var mıdır?",
+            "hayir": "Doğru olanı yapmaktan hiç haz almayan biri erdemli sayılır mı, yoksa kendini zorlayan biri mi?",
+            "kararsizim": "Basit bir örnek düşünelim: Bir çocuk ödevini isteksizce, diğeri isteyerek yapıyor. Hangisinin alışkanlığı daha sağlam olur?"
+          }
+        }
+      ],
+      "closing": "Erdem, bir kez edinilip bırakılan şey değil, her gün sürdürülen bir alışkanlıktır. Bugün sınadığın fikirleri gündelik yaşamında da sına."
+    },
+    {
+      "id": "dostluk",
+      "menu": "Dostluk",
+      "title": "Dostluk (Philia)",
+      "opening": "Dostluk, erdemden sonra yaşamın en gerekli şeylerinden biridir; başka bütün iyilere sahip olsa bile hiç kimse dostsuz yaşamak istemez. Dostluğun türlerini birlikte ayıralım.",
+      "questions": [
+        {
+          "id": "dostluk-1",
+          "text": "Yararına olan biriyle kurulan ilişki gerçek bir dostluk sayılabilir mi?",
+          "branches": {
+            "evet": "Yarar ortadan kalkınca ilişki de sona ererse, bu ilişki ne kadar kalıcıdır?",
+            "hayir": "Birbirine yararı dokunan iki tüccara hiç mi dost diyemeyiz? Dostluğun daha düşük bir türü olabilir mi?",
+            "kararsizim": "Basit bir örnek düşünelim: Ders çalışmak için bir araya gelen iki öğrenciden biri sınav bitince uzaklaşırsa bu ne tür bir arkadaşlıktı?"
+          }
+        },
+        {
+          "id": "dostluk-2",
+          "text": "Eğlenceye dayanan bir dostluk kalıcı olabilir mi?",
+          "branches": {
+            "evet": "Eğlendiren şeyler değişirse ilişki de değişir mi? Bunu gençlerde sıkça görmez miyiz?",
+            "hayir": "Güven ve ortak değerler olmadan yalnızca eğlenceye dayalı bir dostluk zamanla neden çözülür?",
+            "kararsizim": "Basit bir örnek düşünelim: Aynı oyunu seven iki arkadaş oyunu bırakınca ne konuşur? Ortak olan yalnızca oyun muydu?"
+          }
+        },
+        {
+          "id": "dostluk-3",
+          "text": "Gerçek dostluk için dostların iyi karakterli olması gerekir mi?",
+          "branches": {
+            "evet": "Dostun iyiliğini, dostun kendisi için istemek bu tür dostlukta nasıl görünür?",
+            "hayir": "Kötü karakterli iki kişi birbirine güvenerek uzun süre dost kalabilir mi? Birbirlerine ne kadar iyilik isterler?",
+            "kararsizim": "Basit bir örnek düşünelim: Sürekli yalan söyleyen biriyle sırlarını paylaşır mıydın? Güven ile karakter arasında ne ilişki var?"
+          }
+        },
+        {
+          "id": "dostluk-4",
+          "text": "İnsan dostlarının sayısını istediği kadar artırabilir mi?",
+          "branches": {
+            "evet": "Zamanı ve ilgiyi herkesle paylaşırsak, her birine ne kadar yakın olabiliriz?",
+            "hayir": "Neden sınırlı olsun? Birbirini tanımak ve birlikte vakit geçirmek için ne kadar zaman gerekir?",
+            "kararsizim": "Basit bir örnek düşünelim: Bir doğum gününe yüz kişi davet etsen hepsiyle tek tek konuşabilir misin?"
+          }
+        },
+        {
+          "id": "dostluk-5",
+          "text": "İnsan kendisiyle de dost olabilir mi?",
+          "branches": {
+            "evet": "Kendini sevmek ile bencillik aynı şey midir? İyi bir insan kendini nasıl sever?",
+            "hayir": "Kendisiyle çatışan biri başkalarıyla sağlıklı bir dostluk kurabilir mi?",
+            "kararsizim": "Basit bir örnek düşünelim: Yaptığı bir şeyden pişman olan biri kendine kızgınsa, bu kendisiyle dostluğun bozulması mıdır?"
+          }
+        },
+        {
+          "id": "dostluk-6",
+          "text": "Mutlu bir insan için dostlar gerekli midir?",
+          "branches": {
+            "evet": "Peki kendi başına yeten biri neden yine de dost ister? Dostlar ona ne verir?",
+            "hayir": "Hiç dostu olmayan bir insanın en güzel etkinliklerini kiminle paylaşacağını düşündün mü?",
+            "kararsizim": "Basit bir örnek düşünelim: Önemli bir şey keşfettiğinde onu kimseyle paylaşamasaydın sevincin aynı olur muydu?"
+          }
+        }
+      ],
+      "closing": "Dostluk yalnızca bir duygu değil, birlikte yapılan iyi etkinliktir. Dostlarını seçerken hangi tür dostluğu kurduğunu düşün."
+    },
+    {
+      "id": "mantik",
+      "menu": "Mantık",
+      "title": "Mantık ve Akıl Yürütme",
+      "opening": "Bir akıl yürütmenin sağlam olup olmadığını anlamak için önce öncülleri ve sonucu ayırmamız gerekir. Bu amaçla, sonucun öncüllerden zorunlu olarak çıktığı çıkarımları inceledim; buna syllogismos diyoruz. Birlikte deneyelim.",
+      "questions": [
+        {
+          "id": "mantik-1",
+          "text": "Sonuç, öncüllerden zorunlu olarak çıkıyorsa bu akıl yürütme sağlam mıdır?",
+          "branches": {
+            "evet": "Öncüller yanlışsa, bu tür bir akıl yürütme yine de doğru bir sonuca götürür mü? Çıkarımın sağlamlığı ile öncüllerin doğruluğu aynı şey midir?",
+            "hayir": "Sonucun öncüllerden çıkmasını başka hangi ölçütle güvence altına alırdın?",
+            "kararsizim": "Basit bir örnek düşünelim: Bütün kuşların kanadı vardır. Serçe bir kuştur. Bundan serçenin kanadı olduğu sonucu zorunlu olarak çıkar mı?"
+          }
+        },
+        {
+          "id": "mantik-2",
+          "text": "Öncülleri doğru olmayan bir akıl yürütmenin sonucuna güvenilebilir mi?",
+          "branches": {
+            "evet": "Yanlış öncüllerden hareketle doğru bir sonuca rastlantıyla ulaşılabilir mi? O sonuca gerekçeli bir bilgi diyebilir miyiz?",
+            "hayir": "O hâlde bilimsel bir kanıt için öncüllerin nasıl olması gerekir? Doğru ve daha temel olmaları yeter mi?",
+            "kararsizim": "Basit bir örnek düşünelim: Bütün kuşlar balıktır, serçe bir kuştur, o hâlde serçe balıktır. Biçim düzgün, öncül yanlış. Sonuç güvenilir mi?"
+          }
+        },
+        {
+          "id": "mantik-3",
+          "text": "Bütün bilgilerimiz kanıtlanabilir mi?",
+          "branches": {
+            "evet": "Her kanıt bir önceki öncüle dayanırsa bu zincir nerede biter? Sonsuza kadar sürebilir mi?",
+            "hayir": "Kanıtlanamayan ama doğru bildiğimiz ilkelere nasıl ulaşırız? Gözlem ve sezgi bu işte bir rol oynar mı?",
+            "kararsizim": "Basit bir örnek düşünelim: Bir şeyin aynı anda hem var hem yok olamayacağını nasıl kanıtlarsın? Bu bir kanıta mı dayanır, yoksa her kanıttan önce mi gelir?"
+          }
+        },
+        {
+          "id": "mantik-4",
+          "text": "Aynı şey, aynı anda ve aynı bakımdan hem var hem yok olabilir mi?",
+          "branches": {
+            "evet": "Böyle olduğunu savunan biriyle nasıl konuşuruz? Anlaşma neye dayanır?",
+            "hayir": "Bu ilkeyi inkâr eden birine karşı onu nasıl savunursun? Konuşabilmek için bile bu ilkeyi kabul etmek gerekmez mi?",
+            "kararsizim": "Basit bir örnek düşünelim: Bir kapı aynı anda hem açık hem kapalı olabilir mi? Aynı bakımdan sözü burada ne işe yarıyor?"
+          }
+        },
+        {
+          "id": "mantik-5",
+          "text": "Birkaç gözlemden bütün için bir sonuç çıkarmak güvenilir midir?",
+          "branches": {
+            "evet": "Peki kaç gözlem yeterlidir? Bir kuğuyu beyaz görmek bütün kuğuların beyaz olduğunu kanıtlar mı?",
+            "hayir": "Öyleyse genel ilkelere nasıl ulaşırız? Tümevarım (epagoge) bu konuda bize nasıl yardım eder?",
+            "kararsizim": "Basit bir örnek düşünelim: Üç gün üst üste güneşin doğduğunu görürsün. Yarın da doğacağından neye dayanarak emin olursun?"
+          }
+        },
+        {
+          "id": "mantik-6",
+          "text": "Aynı sözcüğü farklı anlamlarda kullanmak bir tartışmayı yanıltabilir mi?",
+          "branches": {
+            "evet": "Bunu önlemek için tartışmaya başlarken ne yapmalıyız? Terimleri tanımlamak yeter mi?",
+            "hayir": "İyi sözcüğü, iyi bir at için ve iyi bir insan için kullanıldığında anlamı aynı mıdır? Fark nerede?",
+            "kararsizim": "Basit bir örnek düşünelim: Kol sözcüğü hem vücudun bir parçası hem de bir kuruluşun bölümü olabilir. Hangisini kastettiğimizi belirtmesek ne olur?"
+          }
+        }
+      ],
+      "closing": "Doğru düşünmenin yolu, kavramları net kullanmak ve çıkarımları adım adım sınamaktır. Bu yöntemi hem benim sözlerime hem kendi sözlerine uygula."
+    },
+    {
+      "id": "siyaset",
+      "menu": "Toplum ve Siyaset",
+      "title": "Toplum ve Siyaset",
+      "opening": "İnsan, doğası gereği toplumsal bir canlıdır; kentte (polis) yaşar, çünkü yalnızca yaşamak için değil, iyi yaşamak için bir araya geliriz. Yönetim biçimlerini ve adalet ölçütlerini birlikte inceleyelim.",
+      "questions": [
+        {
+          "id": "siyaset-1",
+          "text": "İnsan, tek başına da iyi bir hayat yaşayabilir mi?",
+          "branches": {
+            "evet": "Dili, hukuku ve işbölümünü nereden edindik? Kendi kendine yeten ancak bir tanrı ya da bir hayvan olabilir mi?",
+            "hayir": "Öyleyse topluluk içinde yaşamak bizim doğamızın bir gereği midir, yoksa bir alışkanlık mı?",
+            "kararsizim": "Basit bir örnek düşünelim: Hiç konuşacak kimsesi olmayan biri düşünme yetisini ne kadar geliştirebilir?"
+          }
+        },
+        {
+          "id": "siyaset-2",
+          "text": "Bir devletin amacı yalnızca güvenliği ve ticareti sağlamak mıdır?",
+          "branches": {
+            "evet": "Peki iyi bir hayat için gerekli olan erdemi ve eğitimi kim sağlar? Yalnızca bir ittifaktan farkı ne olurdu?",
+            "hayir": "O hâlde devletin asıl amacı iyi yaşamak olmalı mı? Bu amacı gerçekleştirmek için neler gerekir?",
+            "kararsizim": "Basit bir örnek düşünelim: Bir okulun amacı yalnızca öğrencileri sınıfta tutmak mıdır, yoksa onlara bir şey öğretmek mi?"
+          }
+        },
+        {
+          "id": "siyaset-3",
+          "text": "Yönetimin kim tarafından yapıldığı, yönetimin iyi olup olmadığını belirler mi?",
+          "branches": {
+            "evet": "Öyleyse bir kişi, birkaç kişi ve çoğunluk arasında hangisi her zaman daha iyi yönetir?",
+            "hayir": "Peki yönetimi ne zaman iyi, ne zaman bozulmuş sayarız? Ortak yararı gözetmek burada bir ölçüt olabilir mi?",
+            "kararsizim": "Basit bir örnek düşünelim: Bir takımı yalnızca kendi çıkarını düşünen bir kaptan ile bütün takımı düşünen bir kaptan yönetse sonuç aynı olur mu?"
+          }
+        },
+        {
+          "id": "siyaset-4",
+          "text": "Orta halli yurttaşların çoğunlukta olduğu bir toplum daha kararlı olur mu?",
+          "branches": {
+            "evet": "Çok zengin ile çok yoksulun karşı karşıya geldiği bir toplumda ne olur? Orta halli yurttaşlar bu dengeyi nasıl etkiler?",
+            "hayir": "Peki servetin çok az kişide toplandığı toplumlarda istikrar nasıl sağlanır?",
+            "kararsizim": "Basit bir örnek düşünelim: Bir sınıfta öğrenciler ya çok başarılı ya çok başarısız olsa, o sınıfı yönetmek kolay mı olur?"
+          }
+        },
+        {
+          "id": "siyaset-5",
+          "text": "Yasalar, yönetenlerin kişisel kararlarından daha güvenilir midir?",
+          "branches": {
+            "evet": "Peki yasa her özel durumu önceden görebilir mi? Yasanın bıraktığı boşluğu kim, nasıl doldurur?",
+            "hayir": "Bir yöneticinin tutkusu ve çıkarı kararlarını etkileyebilir mi? Yasa bu etkiyi nasıl sınırlar?",
+            "kararsizim": "Basit bir örnek düşünelim: Bir oyunda hakem kuralları uygulamasa, kendi kararına göre davransa oyuncular ona güvenir mi?"
+          }
+        },
+        {
+          "id": "siyaset-6",
+          "text": "Eğitim, devletin ilgilenmesi gereken bir konu mudur?",
+          "branches": {
+            "evet": "Öyleyse bütün yurttaşlar için ortak bir eğitim mi olmalı, yoksa ailelere mi bırakılmalı?",
+            "hayir": "Peki yurttaşları ortak iyiye hazırlayacak olan kimdir? Yalnızca aileler yeterli olur mu?",
+            "kararsizim": "Basit bir örnek düşünelim: Herkesin farklı kurallar öğrettiği bir kentte insanlar ortak kurallara nasıl uyar?"
+          }
+        }
+      ],
+      "closing": "Siyaset, ortak iyiyi arama sanatıdır. Yaşadığın toplulukta neyin iyi yaşamayı desteklediğini sormaya devam et."
+    }
+  ],
+  "reason_prompt": "Bu görüşün neye dayanıyor?",
+  "reasons": [
+    {
+      "id": "experience",
+      "label": "Kendi gözlem ve deneyimime dayanıyor",
+      "reply": "Gözlem iyi bir başlangıçtır. Peki, aynı gözlemi yapan başka birçok kişi de aynı sonuca varır mıydı?"
+    },
+    {
+      "id": "example",
+      "label": "Aklımda somut bir örnek var",
+      "reply": "Örnek, genel ilkeye giden yoldur. Ama tek bir örnek bir ilkeyi kanıtlar mı, yoksa yalnızca düşündürür mü?"
+    },
+    {
+      "id": "heard",
+      "label": "Böyle duydum ya da öğrendim",
+      "reply": "Yaygın görüşler araştırmaya başlamak için değerlidir; ama onları sınamadan benimsemeyiz. Bu görüşün gerekçesini bulabilir misin?"
+    },
+    {
+      "id": "reasoning",
+      "label": "Bir akıl yürütmeye dayanıyor",
+      "reply": "Öncülleri ve sonucu ayıralım. Öncüllerinden hangisine en az güveniyorsun?"
+    },
+    {
+      "id": "principle",
+      "label": "İnandığım bir ilkeye dayanıyor",
+      "reply": "İlkeler araştırmanın başlangıcıdır; yine de ilkenin kendisini neyin desteklediğini sormak gerekir. Bu ilkeyi nereden edindin?"
+    },
+    {
+      "id": "unsure",
+      "label": "Emin değilim, daha çok düşünmeliyim",
+      "reply": "Bu yadırganacak bir şey değil; araştırma şaşırmakla başlar. Daha basit bir durumdan ilerleyelim."
+    }
+  ],
+  "bridges": [
+    "Şimdi aynı konuya başka bir yönden bakalım.",
+    "Bunu bir ayrımla netleştirelim.",
+    "Şimdi bir sonraki soruya geçelim.",
+    "Buradan yeni bir soru çıkıyor.",
+    "Bu konuyu başka bir örnekle düşünelim.",
+    "Şimdi konunun bir başka yanına bakalım."
+  ],
+  "reflection": {
+    "question": "Bu konuşmanın başındaki düşüncenle şimdiki düşüncen arasında bir fark var mı?",
+    "options": [
+      {
+        "id": "changed",
+        "label": "Düşüncem değişti"
+      },
+      {
+        "id": "same",
+        "label": "Düşüncem değişmedi"
+      },
+      {
+        "id": "undecided",
+        "label": "Henüz karar veremedim"
+      }
+    ],
+    "final": "İnsanlar doğaları gereği bilmek ister. Bugün birlikte sorduğumuz soruları tek başına da sürdür: gözlemle, ayır, gerekçelendir. Öğrenmeye devam et."
+  },
+  "authored_note": "Tüm içerik taslaktır; tarihsel ve felsefi doğruluk açısından uzman gözden geçirmesi gerekir."
+}
